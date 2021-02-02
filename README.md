@@ -20,6 +20,7 @@ Create task for people!
 - Edit Task
 - Delete Task
 - Find common Task between 2 or more user
+- Dark theme 😎 (Because why not?)
 
 ### Running locally
 
