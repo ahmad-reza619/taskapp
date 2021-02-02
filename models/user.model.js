@@ -6,7 +6,8 @@ class User extends Model {
   validPassword(password) {
     console.log({ password, p : this.password })
     if (!this.password) return false;
-    return password === this.password;
+    const isValid = bcrypt.compareSync(password, this.password);
+    return isValid;
   }
 }
 
